@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    font-family: "Poppins", sans-serif;
+}
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+header{
+    padding-right: 40px;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 20px;
+}
+
+header nav ul li a{
+    font-size: 20px;
+    color: #333;
+    text-decoration: none;
+}
+
+header nav ul li a:hover{
+    color: green;
+}
+
+header nav ul li button{
+    color: white;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    background-color: green;
+}
+.border{
+    /* height: 500px; */
+    width: 90%;
+    background-color: #FDB200;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 85px;
+}
+.title{
+    text-align: center;
+    color: white;
+}
+section{
+    display: flex;
+    justify-content: center;
+}
+.title1{
+    width: 90%;
+    /* height: 300px; */
+    margin-bottom: -30px;
+    
+
+}
+.border h1{
+    font-size: 45px;
+    line-height: 1.2;
+    padding-bottom: 20px;
+
+    
+}
+.uni1{
+    border-radius: 20px;
+    margin-top: 100px;
+    width: 300px;
+    height: 350px;
+    margin-left: 120px;
+
+}
+/* .didi{
+    display: flex;
+    justify-content: end;
+    text-align: center;
+
+} */ 
+ .tut{
+    display: flex;
+    align-items: center;
+ }
+ .hihi{
+    padding-left: 100px;
+    padding-right: 100px;
+ }
+ /* .newsec{
+    margin-left: 2
+ } */
+  /* .tit{
+    font-size: small;
+    padding-top: 200px;sp
+    padding-right: 200px;
+  } */
+ /* .ruru{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+ }
+.ter{
+    /* padding-right: 300px; */
+/* .dif{
+    padding-top: 200px;
+    padding-right: 300px;
+} */
+  .dif{
+    /* display: flex;
+    justify-content:space-between ; */
+    /* padding-top: 350px;
+    margin-right: 100px; */
+    padding-top: 50px;
+ } 
+
+ .hihi h1{
+    font-size: 45px;
+    color: green;
+    line-height: normal;
+ }
+
+ .hihi p{
+    font-size: 12px;
+ }
+ .hv{
+    padding: 23px;
+    border-radius: 8px;
+    box-shadow: 12px 10px 13px rgba(201, 216, 201, 0.6);
+    border: none;
+
+ }
+ .but{
+    background-color: green;
+    padding: 23px;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    margin-left: -50px;
+ }
+ .sect2{
+    margin-top: -250px;
+    padding-top: 250px;
+    background-color: #E5FFF1;
+    padding-bottom: 50px;
+ }
+.sect3{
+    background-color: black;
+    padding: 80px 0px;
+}
+.card{
+    width: 45%;
+    background-color:#FFF;
+    padding: 50px 100px 50px 30px;
+
+}
+.card h6{
+    padding-bottom: 15px;
+    color: red;
+}
+.card h1{
+    padding-bottom: 15px;
+
+}
+.card p{
+    font-size: 12px;
+}
+
+.sec3-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec3-img img{
+    width: 380px;
+}
+
+.sec3-img{
+    margin-left: -64px;
+}
+.last{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.lastsec p{
+    font-size: 10px ;
+}
+.last img{
+    border-radius: 20px;
+    width: 300px;
+}
+.lastsec{
+    width: 50%;
+    
+}
+.sec6{
+    padding-top: 70px;
+}
+footer{
+    padding: 0 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #E5FFF1;
+}
+.term{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer nav ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 20px;
+}
+footer nav ul li a{
+    font-size: 20px;
+    color: #333;
+    text-decoration: none;
+}
+.foote{
+    height: 80px;
+}
+.foote img{
+    height: 80px;
+}
+.icont{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.icont .icon{
+    border: 1px solid #999;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+.icont .icon:hover{
+    background: green;
+}
+
+.icont .icon:hover i {
+    color: white;
+}
+.term li a:hover{
+    color: gray;
+}
+.buttt:hover{
+    transform: scale(1.1);
+}
+.buttt{
+    transition: all 0.4s ease-in-out;
+}
+.but:hover{
+    transform: scale(1.1);
+}
+.but{
+    transition: all 0.5s ease-in-out;
+}
